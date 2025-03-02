@@ -8,3 +8,30 @@
     cursor: pointer;
     
 }
+.button5:hover
+        {
+            background-color: #00FF00;
+        }
+.card4{
+    border-radius:5% 40% ;
+    border: 5px solid #131212;
+    text-align: left;
+    display:inline-block;
+    width: 30%;
+    box-shadow: 0 10px 10px 15px #636363;
+    margin: 2% 0 5% 10%;
+    vertical-align: baseline;
+    text-align: center;
+}
+
+.card5{
+    border-radius:80%;
+    border: 5px solid #eeb7b7;
+    text-align: left;
+    display:inline-block;
+    width: 30%;
+    box-shadow: 0 10px 10px 15px #636363;
+    margin: 2% 0 5% 10%;
+    vertical-align: baseline;
+    text-align: center;
+}
