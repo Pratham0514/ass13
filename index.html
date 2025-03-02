@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment13</title>
+    <style>
+    
+        .button1{
+            background-color: black;
+            color: #ffffff;
+            padding: 10px 20px;
+            margin: 10px 20px;
+            border-radius: 10px 30px ;
+            cursor: pointer;
+        }
+        .button2{
+            background-color: aqua;
+            color: #000000;
+            padding: 10px;
+            margin:20px 10px;
+            border: 10px double #000000;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+        .button3{
+            background-color: #00FF00;
+            color: #000000;
+            padding: 10px;
+            margin:20px 10px;
+            border: 10px  #000000;
+            border-radius: 30px;
+            cursor: pointer;            
+        }
+        .button4{
+            background-color: bisque;
+            color: #000000;
+            padding: 10px;
+            margin:20px 10px;
+            border: 2px dotted #000000;
+            border-radius: 20px 40px;
+            cursor: pointer;
+        }
+        /* card  1*/
+
+
+        .card1{
+            border-radius: 20px;
+            border: 2px solid black;
+            text-align: left;
+            display:inline-block;
+            width: 30%;
+            box-shadow: 0 10px 12px 5px #000000;
+            margin: 2% 0 5% 10%;
+            vertical-align: baseline;
+            text-align: center;
+        }
+         /* card  2*/
+        .card2{
+            border-radius: 0 100px;
+            border: 5px solid #d9aaaa;
+            text-align: left;
+            display:inline-block;
+            width: 30%;
+            box-shadow: 0 10px 12px 5px #d9aaaa;
+            margin: 2% 0 5% 10%;
+            vertical-align: baseline;
+            text-align: center;
+        }
+         /* card  3*/
+         .card3{
+            border-radius:50% 50% 4% 4% ;
+            border: 5px solid #d9aaaa;
+            text-align: left;
+            display:inline-block;
+            width: 30%;
+            box-shadow: 0 10px 12px 5px #e69569;
+            margin: 2% 0 5% 10%;
+            vertical-align: baseline;
+            text-align: center;
+        }
+        .img{
+            width:"50px";
+            padding-top: 5%;
+           
+        }
+        .text{
+            text-align: justify;
+            margin: 10px;
+            padding: 10px;    
+                    
+        }
+    </style>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div>
+        <h1 style="text-align: center;">Button</h1>
+        <input type="button" value="click me button one" class="button1">
+        <input type="button" value="click me button two" class="button2">
+        <input type="submit" value="click me button three" class="button3">
+        <input type="submit" value="click me button two" class="button4">
+        <input type="button" value="click me button two" class="button5">
+        
+    </div>
+    <h1 style="text-align: center;">Card</h1>
+    <div class="card1 ">
+        <h1 style="text-align: center;">Drink</h1>
+        <img src="./img/drink.png" width="70%" class="img" >
+        <p class="text">Premium frappe prepared by blending brownie with milk and ice cream. Regular [425 ml] - 593.2 kcal / Small [315 ml] - 514.6 kcal. Allergen - Contains Milk, Gluten & Nuts. An average active adult requires 2000 kcal energy per day, however, calorie needs may vary.</p>
+        <input type="button" value="pay" class="button1">
+    </div>
+
+    <div class="card2">
+        <h1 style="text-align: center;">cake</h1>
+        <img src="./img/cake.png" width="70%" class="img" >
+        <p class="text" style="font-style: inherit; font-weight:400;background-color: aliceblue;">Naughty choco chips. Choco chips is delightful cake filled with a sinful chocolate cream. It's a fun mix of bite & melt, softness, the naughty and the nice. It's chocolate base topped with chocolate truffle has rich chips both inside and outside.</p>
+        <input type="button" value="pay" class="button2">
+    </div>
+
+    <div class="card3">
+        <h1 style="text-align: center;">Burger</h1>
+        <img src="./img/burgger.png" width="70%" class="img" style="border-radius:50% 50% 4% 4% " >
+        <p class="text" style="font-style: italic; font-weight:400; background-color: #fbeae1; ">Our Saucy, Sweet & Spicy Clucker made of Crispy Fried Chicken Breast Coated in our inhouse Smoky BBQ Sauce served with Lettuce and Spicy Bhoot Sauce on a freshly baked bun. Kcals: 656.43</p>
+        <span><b>₹<del>500</del> 250</b></span><br>
+        <input type="button" value="order now " class="button3">
+    </div>
+</body>
+</html>
